@@ -46,8 +46,8 @@ function executeCode(language, code) {
     const lang = String(language || '').trim().toLowerCase();
     const source = String(code || '');
     const supported = {
-      go: { cmd: 'go', args: ['run'], filename: 'main.go' },
-      php: { cmd: 'php', args: [], filename: 'main.php' },
+      go: { cmd: '/usr/bin/go', args: ['run'], filename: 'main.go' },
+      php: { cmd: '/usr/bin/php', args: [], filename: 'main.php' },
     };
 
     const spec = supported[lang];
