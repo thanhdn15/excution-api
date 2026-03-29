@@ -1,0 +1,10 @@
+{
+  "name": "dsa-execution-api",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Execution API for dsa-mastery.html",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
